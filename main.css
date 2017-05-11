@@ -3,7 +3,6 @@ body {
   font-family: serif;
   border-top: solid 3px #20ded8;
   padding-top: 40px;
-  line-height: 27px;
 /*
   background-color: #eee;
   background: linear-gradient(314deg, #287eae, #35cc7d);
@@ -17,6 +16,13 @@ body {
 h1 {
   font-size: 80px;
   letter-spacing: -2px;
+  line-height: 1.2em;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
 }
 h1, h2, h3, h4, h5 {
   font-weight: bold;
@@ -38,6 +44,7 @@ h3::after {
 }
 
 p {
+  line-height: 30px;
   font-size: 18px;
 }
 
